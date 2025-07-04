@@ -12,10 +12,10 @@ def insertion_sort(arr):
             arr[j + 1] = arr[j]
             j -= 1
             
-        # While sort in decreasing order
-        while j >= 0 and arr[j] < key:
-            arr[j+1] = arr[j]
-            j-= 1
+ # While sort in decreasing order:-
+        # while j >= 0 and arr[j] < key:
+        #     arr[j+1] = arr[j]
+        #     j-= 1
 
         # Insert the key at its correct position
         arr[j + 1] = key
